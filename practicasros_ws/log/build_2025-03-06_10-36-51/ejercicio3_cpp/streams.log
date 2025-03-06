@@ -1,0 +1,26 @@
+[0.194s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp': AMENT_PREFIX_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos:/opt/ros/humble LD_LIBRARY_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp -- -j20 -l20
+[0.226s] [35m[1mConsolidate compiler generated dependencies of target service[0m
+[0.226s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.240s] [ 50%] Built target service
+[0.241s] [100%] Built target client
+[0.251s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp' returned '0': AMENT_PREFIX_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos:/opt/ros/humble LD_LIBRARY_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp -- -j20 -l20
+[0.252s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp': AMENT_PREFIX_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos:/opt/ros/humble LD_LIBRARY_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp
+[0.257s] -- Install configuration: ""
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/lib/ejercicio3_cpp/service
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/lib/ejercicio3_cpp/client
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/package_run_dependencies/ejercicio3_cpp
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/parent_prefix_path/ejercicio3_cpp
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/ament_prefix_path.sh
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/ament_prefix_path.dsv
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/path.sh
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/path.dsv
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.bash
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.sh
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.zsh
+[0.257s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.dsv
+[0.258s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.dsv
+[0.258s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/packages/ejercicio3_cpp
+[0.258s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/cmake/ejercicio3_cppConfig.cmake
+[0.258s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/cmake/ejercicio3_cppConfig-version.cmake
+[0.258s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.xml
+[0.259s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp' returned '0': AMENT_PREFIX_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos:/opt/ros/humble LD_LIBRARY_PATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp

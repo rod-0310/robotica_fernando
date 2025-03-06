@@ -1,0 +1,7 @@
+[01m[K/home/rod-0310/Escritorio/practicasros_ws/src/practica1_cpp/src/nodo2.cpp:[m[K In member function ‘[01m[Kvoid Nodo2::callback(std_msgs::msg::Int8_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rod-0310/Escritorio/practicasros_ws/src/practica1_cpp/src/nodo2.cpp:27:17:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+   27 |         if ([01;35m[Ksum > 127[m[K) sum = -128 + (sum - 128);
+      |             [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/rod-0310/Escritorio/practicasros_ws/src/practica1_cpp/src/nodo2.cpp:28:22:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+   28 |         else if ([01;35m[Ksum < -128[m[K) sum = 127 - (-129 - sum);
+      |                  [01;35m[K~~~~^~~~~~[m[K

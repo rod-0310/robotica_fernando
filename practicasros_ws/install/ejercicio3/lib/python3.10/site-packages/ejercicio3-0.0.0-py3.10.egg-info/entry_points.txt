@@ -1,0 +1,4 @@
+[console_scripts]
+client = ejercicio3.client:main
+server = ejercicio3.server:main
+

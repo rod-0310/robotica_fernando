@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1b9728aa9a324a106bd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "recursos__py",
+					"jsonFile" : "directory-recursos__py-347a6d3f6b9d6d53049a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rod-0310/Escritorio/practicasros_ws/build/recursos/recursos__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "recursos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_recursos_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_recursos_egg-41152e1fa0fbf402a25b.json",
+					"name" : "ament_cmake_python_build_recursos_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_recursos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_recursos-1acd13cbc7fa25268436.json",
+					"name" : "ament_cmake_python_copy_recursos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos-40ef0111ed15b56b738b.json",
+					"name" : "recursos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__cpp-82d70091ffe2c31d2979.json",
+					"name" : "recursos__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "recursos__py::@088ba155b99530777f42",
+					"jsonFile" : "target-recursos__py-fdc3a3faf4e457f91c5e.json",
+					"name" : "recursos__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_generator_c-685f1b0621258bb01622.json",
+					"name" : "recursos__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_generator_py-b86416b224ccc973d897.json",
+					"name" : "recursos__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_typesupport_c-32f553e8d31091e4a409.json",
+					"name" : "recursos__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_typesupport_c__pyext-8284b54e087278e839fd.json",
+					"name" : "recursos__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_typesupport_cpp-1e6ea4f4078e2eabbe8f.json",
+					"name" : "recursos__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_typesupport_fastrtps_c-f5908faf99c2443b2af6.json",
+					"name" : "recursos__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_typesupport_fastrtps_c__pyext-d141f4fdd17f824c2535.json",
+					"name" : "recursos__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_typesupport_fastrtps_cpp-647f89d37abe08e6d42d.json",
+					"name" : "recursos__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_typesupport_introspection_c-0c5e2d9e976fe61a0d45.json",
+					"name" : "recursos__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_typesupport_introspection_c__pyext-85e252117fcf5ce6f987.json",
+					"name" : "recursos__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos__rosidl_typesupport_introspection_cpp-39159c2d45765f4c4a4d.json",
+					"name" : "recursos__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursos_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursos_uninstall-093407513379b8bb429b.json",
+					"name" : "recursos_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9f475f977dd08d03890e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rod-0310/Escritorio/practicasros_ws/build/recursos",
+		"source" : "/home/rod-0310/Escritorio/practicasros_ws/src/recursos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

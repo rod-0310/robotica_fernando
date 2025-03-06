@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/ejercicio2/ejercicio2.egg-info
+writing ../../build/ejercicio2/ejercicio2.egg-info/PKG-INFO
+writing dependency_links to ../../build/ejercicio2/ejercicio2.egg-info/dependency_links.txt
+writing entry points to ../../build/ejercicio2/ejercicio2.egg-info/entry_points.txt
+writing requirements to ../../build/ejercicio2/ejercicio2.egg-info/requires.txt
+writing top-level names to ../../build/ejercicio2/ejercicio2.egg-info/top_level.txt
+writing manifest file '../../build/ejercicio2/ejercicio2.egg-info/SOURCES.txt'
+reading manifest file '../../build/ejercicio2/ejercicio2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ejercicio2/ejercicio2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/build
+creating /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/build/lib
+creating /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/build/lib/ejercicio2
+copying ejercicio2/__init__.py -> /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/build/lib/ejercicio2
+running install
+running install_lib
+creating /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages/ejercicio2
+copying /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/build/lib/ejercicio2/__init__.py -> /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages/ejercicio2
+byte-compiling /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages/ejercicio2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ament_index
+creating /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ament_index/resource_index
+creating /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ament_index/resource_index/packages
+copying resource/ejercicio2 -> /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ament_index/resource_index/packages
+copying package.xml -> /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2
+running install_egg_info
+Copying ../../build/ejercicio2/ejercicio2.egg-info to /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages/ejercicio2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/install.log'

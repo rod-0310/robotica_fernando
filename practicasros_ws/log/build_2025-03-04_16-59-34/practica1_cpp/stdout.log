@@ -1,0 +1,25 @@
+[ 33%] Built target nodo1
+[ 66%] Built target nodo3
+[ 83%] [32mBuilding CXX object CMakeFiles/nodo2.dir/src/nodo2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable nodo2[0m
+[100%] Built target nodo2
+-- Install configuration: ""
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/practica1_cpp/nodo1
+-- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/practica1_cpp/nodo2
+-- Set runtime path of "/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/practica1_cpp/nodo2" to ""
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/practica1_cpp/nodo3
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/ament_index/resource_index/package_run_dependencies/practica1_cpp
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/ament_index/resource_index/parent_prefix_path/practica1_cpp
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/environment/path.sh
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/environment/path.dsv
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/local_setup.bash
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/local_setup.sh
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/local_setup.zsh
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/local_setup.dsv
+-- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.dsv
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/ament_index/resource_index/packages/practica1_cpp
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/cmake/practica1_cppConfig.cmake
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/cmake/practica1_cppConfig-version.cmake
+-- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.xml

@@ -1,0 +1,29 @@
+[0.157s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/install/practica1:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp -- -j20 -l20
+[0.194s] [ 33%] Built target nodo1
+[0.194s] [ 66%] Built target nodo3
+[0.195s] [ 83%] [32mBuilding CXX object CMakeFiles/nodo2.dir/src/nodo2.cpp.o[0m
+[4.485s] [100%] [32m[1mLinking CXX executable nodo2[0m
+[4.686s] [100%] Built target nodo2
+[4.694s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/install/practica1:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp -- -j20 -l20
+[4.699s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/install/practica1:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp
+[4.704s] -- Install configuration: ""
+[4.704s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/practica1_cpp/nodo1
+[4.704s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/practica1_cpp/nodo2
+[4.707s] -- Set runtime path of "/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/practica1_cpp/nodo2" to ""
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/practica1_cpp/nodo3
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/ament_index/resource_index/package_run_dependencies/practica1_cpp
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/ament_index/resource_index/parent_prefix_path/practica1_cpp
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/environment/ament_prefix_path.sh
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/environment/ament_prefix_path.dsv
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/environment/path.sh
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/environment/path.dsv
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/local_setup.bash
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/local_setup.sh
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/local_setup.zsh
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/local_setup.dsv
+[4.707s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.dsv
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/ament_index/resource_index/packages/practica1_cpp
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/cmake/practica1_cppConfig.cmake
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/cmake/practica1_cppConfig-version.cmake
+[4.707s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.xml
+[4.709s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/install/practica1:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp

@@ -1,0 +1,2 @@
+Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp -- -j20 -l20
+Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp -- -j20 -l20

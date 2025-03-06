@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (-) JobUnselected: {'identifier': 'practica1'}
+[0.000242] (-) JobUnselected: {'identifier': 'practica1_cpp'}
+[0.000351] (-) EventReactorShutdown: {}

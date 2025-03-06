@@ -1,0 +1,34 @@
+[0.472s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/src/practica1': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/practica1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practica1 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/practica1/install.log --single-version-externally-managed install_data
+[0.650s] running egg_info
+[0.650s] creating ../../build/practica1/practica1.egg-info
+[0.650s] writing ../../build/practica1/practica1.egg-info/PKG-INFO
+[0.650s] writing dependency_links to ../../build/practica1/practica1.egg-info/dependency_links.txt
+[0.650s] writing entry points to ../../build/practica1/practica1.egg-info/entry_points.txt
+[0.650s] writing requirements to ../../build/practica1/practica1.egg-info/requires.txt
+[0.650s] writing top-level names to ../../build/practica1/practica1.egg-info/top_level.txt
+[0.650s] writing manifest file '../../build/practica1/practica1.egg-info/SOURCES.txt'
+[0.651s] reading manifest file '../../build/practica1/practica1.egg-info/SOURCES.txt'
+[0.651s] adding license file 'LICENSE'
+[0.652s] writing manifest file '../../build/practica1/practica1.egg-info/SOURCES.txt'
+[0.652s] running build
+[0.652s] running build_py
+[0.652s] creating /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build
+[0.652s] creating /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build/lib
+[0.652s] creating /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build/lib/practica1
+[0.652s] copying practica1/__init__.py -> /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build/lib/practica1
+[0.652s] running install
+[0.652s] running install_lib
+[0.653s] creating /home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages/practica1
+[0.653s] copying /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build/lib/practica1/__init__.py -> /home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages/practica1
+[0.653s] byte-compiling /home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages/practica1/__init__.py to __init__.cpython-310.pyc
+[0.653s] running install_data
+[0.653s] creating /home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/ament_index
+[0.653s] creating /home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/ament_index/resource_index
+[0.653s] creating /home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/ament_index/resource_index/packages
+[0.654s] copying resource/practica1 -> /home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/ament_index/resource_index/packages
+[0.654s] copying package.xml -> /home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1
+[0.654s] running install_egg_info
+[0.655s] Copying ../../build/practica1/practica1.egg-info to /home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages/practica1-0.0.0-py3.10.egg-info
+[0.656s] running install_scripts
+[0.670s] writing list of installed files to '/home/rod-0310/Escritorio/practicasros_ws/build/practica1/install.log'
+[0.685s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/src/practica1' returned '0': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/practica1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practica1 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/practica1/install.log --single-version-externally-managed install_data

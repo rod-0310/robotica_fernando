@@ -1,0 +1,34 @@
+[0.832s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio3 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/install.log --single-version-externally-managed install_data
+[1.005s] running egg_info
+[1.006s] creating ../../build/ejercicio3/ejercicio3.egg-info
+[1.006s] writing ../../build/ejercicio3/ejercicio3.egg-info/PKG-INFO
+[1.006s] writing dependency_links to ../../build/ejercicio3/ejercicio3.egg-info/dependency_links.txt
+[1.006s] writing entry points to ../../build/ejercicio3/ejercicio3.egg-info/entry_points.txt
+[1.006s] writing requirements to ../../build/ejercicio3/ejercicio3.egg-info/requires.txt
+[1.006s] writing top-level names to ../../build/ejercicio3/ejercicio3.egg-info/top_level.txt
+[1.006s] writing manifest file '../../build/ejercicio3/ejercicio3.egg-info/SOURCES.txt'
+[1.007s] reading manifest file '../../build/ejercicio3/ejercicio3.egg-info/SOURCES.txt'
+[1.007s] adding license file 'LICENSE'
+[1.008s] writing manifest file '../../build/ejercicio3/ejercicio3.egg-info/SOURCES.txt'
+[1.008s] running build
+[1.008s] running build_py
+[1.008s] creating /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/build
+[1.008s] creating /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/build/lib
+[1.008s] creating /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/build/lib/ejercicio3
+[1.008s] copying ejercicio3/__init__.py -> /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/build/lib/ejercicio3
+[1.008s] running install
+[1.008s] running install_lib
+[1.009s] creating /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages/ejercicio3
+[1.009s] copying /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/build/lib/ejercicio3/__init__.py -> /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages/ejercicio3
+[1.009s] byte-compiling /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages/ejercicio3/__init__.py to __init__.cpython-310.pyc
+[1.009s] running install_data
+[1.009s] creating /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ament_index
+[1.009s] creating /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ament_index/resource_index
+[1.010s] creating /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ament_index/resource_index/packages
+[1.010s] copying resource/ejercicio3 -> /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ament_index/resource_index/packages
+[1.010s] copying package.xml -> /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3
+[1.010s] running install_egg_info
+[1.011s] Copying ../../build/ejercicio3/ejercicio3.egg-info to /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages/ejercicio3-0.0.0-py3.10.egg-info
+[1.011s] running install_scripts
+[1.026s] writing list of installed files to '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/install.log'
+[1.047s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3' returned '0': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio3 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/install.log --single-version-externally-managed install_data

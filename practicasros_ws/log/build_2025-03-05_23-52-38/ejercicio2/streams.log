@@ -1,0 +1,24 @@
+[0.842s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio2 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/install.log --single-version-externally-managed install_data
+[1.022s] running egg_info
+[1.022s] writing ../../build/ejercicio2/ejercicio2.egg-info/PKG-INFO
+[1.022s] writing dependency_links to ../../build/ejercicio2/ejercicio2.egg-info/dependency_links.txt
+[1.022s] writing entry points to ../../build/ejercicio2/ejercicio2.egg-info/entry_points.txt
+[1.023s] writing requirements to ../../build/ejercicio2/ejercicio2.egg-info/requires.txt
+[1.023s] writing top-level names to ../../build/ejercicio2/ejercicio2.egg-info/top_level.txt
+[1.024s] reading manifest file '../../build/ejercicio2/ejercicio2.egg-info/SOURCES.txt'
+[1.024s] adding license file 'LICENSE'
+[1.024s] writing manifest file '../../build/ejercicio2/ejercicio2.egg-info/SOURCES.txt'
+[1.025s] running build
+[1.025s] running build_py
+[1.025s] running install
+[1.025s] running install_lib
+[1.026s] running install_data
+[1.026s] running install_egg_info
+[1.027s] removing '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages/ejercicio2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.027s] Copying ../../build/ejercicio2/ejercicio2.egg-info to /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages/ejercicio2-0.0.0-py3.10.egg-info
+[1.028s] running install_scripts
+[1.044s] Installing nodo1 script to /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/ejercicio2
+[1.044s] Installing nodo2 script to /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/ejercicio2
+[1.044s] Installing nodo3 script to /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/ejercicio2
+[1.044s] writing list of installed files to '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/install.log'
+[1.063s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2' returned '0': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio2 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/install.log --single-version-externally-managed install_data

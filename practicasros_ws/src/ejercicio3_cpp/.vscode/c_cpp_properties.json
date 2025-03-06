@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2_cpp/include/**",
+        "/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3_cpp/include/**",
+        "/home/rod-0310/Escritorio/practicasros_ws/src/practica1_cpp/include/**",
+        "/home/rod-0310/Escritorio/practicasros_ws/src/recursos/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

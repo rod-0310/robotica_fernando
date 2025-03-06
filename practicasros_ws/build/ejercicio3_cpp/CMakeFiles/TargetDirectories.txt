@@ -1,0 +1,11 @@
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/uninstall.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/ejercicio3_cpp_uninstall.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/service.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/client.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/test.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/edit_cache.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/rebuild_cache.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/list_install_components.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/install.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/install/local.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp/CMakeFiles/install/strip.dir

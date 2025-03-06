@@ -1,0 +1,58 @@
+[0.319s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake /home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3_cpp -DCMAKE_INSTALL_PREFIX=/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp
+[0.477s] -- The C compiler identification is GNU 11.4.0
+[0.477s] -- The CXX compiler identification is GNU 11.4.0
+[0.477s] -- Detecting C compiler ABI info
+[0.477s] -- Detecting C compiler ABI info - done
+[0.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.477s] -- Detecting C compile features
+[0.477s] -- Detecting C compile features - done
+[0.477s] -- Detecting CXX compiler ABI info
+[0.505s] -- Detecting CXX compiler ABI info - done
+[0.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.513s] -- Detecting CXX compile features
+[0.514s] -- Detecting CXX compile features - done
+[0.515s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.645s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.708s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.732s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.735s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.739s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.782s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.783s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.851s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.871s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.905s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.912s] -- Looking for pthread.h
+[0.970s] -- Looking for pthread.h - found
+[0.970s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.030s] -- Found Threads: TRUE  
+[1.065s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.112s] -- Added test 'lint_cmake' to check CMake code style
+[1.112s] -- Added test 'xmllint' to check XML markup files
+[1.113s] -- Configuring done
+[1.115s] -- Generating done
+[1.116s] -- Build files have been written to: /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp
+[1.123s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake /home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3_cpp -DCMAKE_INSTALL_PREFIX=/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp
+[1.124s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp -- -j20 -l20
+[1.149s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp -- -j20 -l20
+[1.150s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp
+[1.155s] -- Install configuration: ""
+[1.155s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/package_run_dependencies/ejercicio3_cpp
+[1.155s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/parent_prefix_path/ejercicio3_cpp
+[1.155s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/ament_prefix_path.sh
+[1.155s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/ament_prefix_path.dsv
+[1.155s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/path.sh
+[1.155s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/path.dsv
+[1.155s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.bash
+[1.155s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.sh
+[1.155s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.zsh
+[1.155s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.dsv
+[1.156s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.dsv
+[1.156s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/packages/ejercicio3_cpp
+[1.156s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/cmake/ejercicio3_cppConfig.cmake
+[1.156s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/cmake/ejercicio3_cppConfig-version.cmake
+[1.156s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.xml
+[1.157s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp

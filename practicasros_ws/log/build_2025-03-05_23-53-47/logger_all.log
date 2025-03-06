@@ -1,0 +1,488 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x787b2b04ba60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x787b2b04b520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x787b2b04b520>>, mixin_verb=('build',))
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.156s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rod-0310/Escritorio/practicasros_ws'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejercicio2' with type 'ros.ament_python' and name 'ejercicio2'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2_cpp) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2_cpp) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2_cpp) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2_cpp) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2_cpp) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2_cpp) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2_cpp) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio2_cpp) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejercicio2_cpp' with type 'ros.ament_cmake' and name 'ejercicio2_cpp'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejercicio3' with type 'ros.ament_python' and name 'ejercicio3'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3_cpp) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3_cpp) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3_cpp) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3_cpp) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3_cpp) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3_cpp) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3_cpp) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio3_cpp) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejercicio3_cpp' with type 'ros.ament_cmake' and name 'ejercicio3_cpp'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/practica1' with type 'ros.ament_python' and name 'practica1'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1_cpp) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1_cpp) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1_cpp) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1_cpp) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1_cpp) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1_cpp) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1_cpp) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/practica1_cpp) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/practica1_cpp' with type 'ros.ament_cmake' and name 'practica1_cpp'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/recursos) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/recursos) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/recursos) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/recursos) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/recursos) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/recursos) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/recursos) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/recursos) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/recursos) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/recursos' with type 'ros.ament_cmake' and name 'recursos'
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.183s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/rod-0310/Escritorio/practicasros_ws/src/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.183s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.183s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.183s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.183s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.183s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.183s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2' build argument 'cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2' build argument 'cmake_target' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2' build argument 'cmake_clean_first' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2' build argument 'cmake_force_configure' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2' build argument 'ament_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.203s] DEBUG:colcon.colcon_core.verb:Building package 'ejercicio2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2', 'merge_install': False, 'path': '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2', 'symlink_install': False, 'test_result_base': None}
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2_cpp' build argument 'cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2_cpp' build argument 'cmake_target' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio2_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.203s] DEBUG:colcon.colcon_core.verb:Building package 'ejercicio2_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp', 'merge_install': False, 'path': '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3' build argument 'cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3' build argument 'cmake_target' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3' build argument 'cmake_clean_first' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3' build argument 'cmake_force_configure' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3' build argument 'ament_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.203s] DEBUG:colcon.colcon_core.verb:Building package 'ejercicio3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3', 'merge_install': False, 'path': '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3', 'symlink_install': False, 'test_result_base': None}
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3_cpp' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3_cpp' build argument 'cmake_target' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ejercicio3_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.204s] DEBUG:colcon.colcon_core.verb:Building package 'ejercicio3_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp', 'merge_install': False, 'path': '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1' build argument 'cmake_target' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1' build argument 'cmake_clean_first' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1' build argument 'cmake_force_configure' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1' build argument 'ament_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.204s] DEBUG:colcon.colcon_core.verb:Building package 'practica1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rod-0310/Escritorio/practicasros_ws/build/practica1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rod-0310/Escritorio/practicasros_ws/install/practica1', 'merge_install': False, 'path': '/home/rod-0310/Escritorio/practicasros_ws/src/practica1', 'symlink_install': False, 'test_result_base': None}
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1_cpp' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1_cpp' build argument 'cmake_target' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'practica1_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.204s] DEBUG:colcon.colcon_core.verb:Building package 'practica1_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp', 'merge_install': False, 'path': '/home/rod-0310/Escritorio/practicasros_ws/src/practica1_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'recursos' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'recursos' build argument 'cmake_target' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'recursos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'recursos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'recursos' build argument 'cmake_clean_first' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'recursos' build argument 'cmake_force_configure' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'recursos' build argument 'ament_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'recursos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'recursos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.204s] DEBUG:colcon.colcon_core.verb:Building package 'recursos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rod-0310/Escritorio/practicasros_ws/build/recursos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rod-0310/Escritorio/practicasros_ws/install/recursos', 'merge_install': False, 'path': '/home/rod-0310/Escritorio/practicasros_ws/src/recursos', 'symlink_install': False, 'test_result_base': None}
+[0.204s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.205s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2' with build type 'ament_python'
+[0.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio2', 'ament_prefix_path')
+[0.207s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/hook/ament_prefix_path.ps1'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/hook/ament_prefix_path.dsv'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/hook/ament_prefix_path.sh'
+[0.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.209s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2_cpp' with build type 'ament_cmake'
+[0.209s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2_cpp'
+[0.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3' with build type 'ament_python'
+[0.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio3', 'ament_prefix_path')
+[0.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/hook/ament_prefix_path.ps1'
+[0.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/hook/ament_prefix_path.dsv'
+[0.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/hook/ament_prefix_path.sh'
+[0.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3_cpp' with build type 'ament_cmake'
+[0.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3_cpp'
+[0.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.215s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rod-0310/Escritorio/practicasros_ws/src/practica1' with build type 'ament_python'
+[0.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('practica1', 'ament_prefix_path')
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/hook/ament_prefix_path.ps1'
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/hook/ament_prefix_path.dsv'
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/hook/ament_prefix_path.sh'
+[0.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rod-0310/Escritorio/practicasros_ws/src/practica1_cpp' with build type 'ament_cmake'
+[0.217s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rod-0310/Escritorio/practicasros_ws/src/practica1_cpp'
+[0.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rod-0310/Escritorio/practicasros_ws/src/recursos' with build type 'ament_cmake'
+[0.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rod-0310/Escritorio/practicasros_ws/src/recursos'
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.376s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2'
+[0.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2_cpp -- -j20 -l20
+[0.533s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp -- -j20 -l20
+[0.683s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rod-0310/Escritorio/practicasros_ws/src/practica1'
+[0.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp -- -j20 -l20
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/recursos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/recursos -- -j20 -l20
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2_cpp -- -j20 -l20
+[0.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2_cpp
+[0.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp -- -j20 -l20
+[0.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp
+[0.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio2_cpp)
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2_cpp
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp' for CMake module files
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp' for CMake config files
+[0.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio2_cpp', 'cmake_prefix_path')
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/hook/cmake_prefix_path.ps1'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/hook/cmake_prefix_path.dsv'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/hook/cmake_prefix_path.sh'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/lib'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/bin'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/lib/pkgconfig/ejercicio2_cpp.pc'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/lib/python3.10/site-packages'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/bin'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/package.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/package.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/package.sh'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/package.bash'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/package.zsh'
+[0.718s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/colcon-core/packages/ejercicio2_cpp)
+[0.719s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio2_cpp)
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp' for CMake module files
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp' for CMake config files
+[0.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio2_cpp', 'cmake_prefix_path')
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/hook/cmake_prefix_path.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/hook/cmake_prefix_path.dsv'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/hook/cmake_prefix_path.sh'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/lib'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/bin'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/lib/pkgconfig/ejercicio2_cpp.pc'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/lib/python3.10/site-packages'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/bin'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/package.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/package.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/package.sh'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/package.bash'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/ejercicio2_cpp/package.zsh'
+[0.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2_cpp/share/colcon-core/packages/ejercicio2_cpp)
+[0.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio3_cpp)
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp' for CMake module files
+[0.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp' for CMake config files
+[0.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio3_cpp', 'cmake_prefix_path')
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/hook/cmake_prefix_path.ps1'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/hook/cmake_prefix_path.dsv'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/hook/cmake_prefix_path.sh'
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/bin'
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/lib/pkgconfig/ejercicio3_cpp.pc'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/lib/python3.10/site-packages'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/bin'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.ps1'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.dsv'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.sh'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.bash'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.zsh'
+[0.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/colcon-core/packages/ejercicio3_cpp)
+[0.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio3_cpp)
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp' for CMake module files
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp' for CMake config files
+[0.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio3_cpp', 'cmake_prefix_path')
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/hook/cmake_prefix_path.ps1'
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/hook/cmake_prefix_path.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/hook/cmake_prefix_path.sh'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/bin'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/lib/pkgconfig/ejercicio3_cpp.pc'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/lib/python3.10/site-packages'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/bin'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.sh'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.bash'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.zsh'
+[0.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/colcon-core/packages/ejercicio3_cpp)
+[0.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/recursos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/recursos -- -j20 -l20
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/recursos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/recursos
+[0.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(recursos)
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/recursos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/recursos
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos' for CMake module files
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos' for CMake config files
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('recursos', 'cmake_prefix_path')
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/hook/cmake_prefix_path.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/hook/cmake_prefix_path.dsv'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/hook/cmake_prefix_path.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/pkgconfig/recursos.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/python3.10/site-packages'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/bin'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.sh'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.bash'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.zsh'
+[0.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/colcon-core/packages/recursos)
+[0.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(recursos)
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos' for CMake module files
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos' for CMake config files
+[0.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('recursos', 'cmake_prefix_path')
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/hook/cmake_prefix_path.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/hook/cmake_prefix_path.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/hook/cmake_prefix_path.sh'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/bin'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/pkgconfig/recursos.pc'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/python3.10/site-packages'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/bin'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.ps1'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.dsv'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.sh'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.bash'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.zsh'
+[0.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/colcon-core/packages/recursos)
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp -- -j20 -l20
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp
+[0.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(practica1_cpp)
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp' for CMake module files
+[0.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp' for CMake config files
+[0.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('practica1_cpp', 'cmake_prefix_path')
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/hook/cmake_prefix_path.ps1'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/hook/cmake_prefix_path.dsv'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/hook/cmake_prefix_path.sh'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/bin'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/pkgconfig/practica1_cpp.pc'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/python3.10/site-packages'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/bin'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.ps1'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.dsv'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.sh'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.bash'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.zsh'
+[0.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/colcon-core/packages/practica1_cpp)
+[0.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(practica1_cpp)
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp' for CMake module files
+[0.759s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp' for CMake config files
+[0.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('practica1_cpp', 'cmake_prefix_path')
+[0.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/hook/cmake_prefix_path.ps1'
+[0.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/hook/cmake_prefix_path.dsv'
+[0.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/hook/cmake_prefix_path.sh'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/bin'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/pkgconfig/practica1_cpp.pc'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/lib/python3.10/site-packages'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/bin'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.ps1'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.dsv'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.sh'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.bash'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/practica1_cpp/package.zsh'
+[0.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/practica1_cpp/share/colcon-core/packages/practica1_cpp)
+[0.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio2 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/install.log --single-version-externally-managed install_data
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/src/practica1': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/practica1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practica1 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/practica1/install.log --single-version-externally-managed install_data
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio3 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/install.log --single-version-externally-managed install_data
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2' for CMake module files
+[1.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio2' returned '0': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio2 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio2/install.log --single-version-externally-managed install_data
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2' for CMake config files
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/bin'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/pkgconfig/ejercicio2.pc'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages'
+[1.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio2', 'pythonpath')
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/hook/pythonpath.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/hook/pythonpath.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/hook/pythonpath.sh'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/bin'
+[1.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio2)
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/package.ps1'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/package.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/package.sh'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/package.bash'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/ejercicio2/package.zsh'
+[1.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/share/colcon-core/packages/ejercicio2)
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3' for CMake module files
+[1.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/src/ejercicio3' returned '0': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio3 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3/install.log --single-version-externally-managed install_data
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3' for CMake config files
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/bin'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/pkgconfig/ejercicio3.pc'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages'
+[1.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio3', 'pythonpath')
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/hook/pythonpath.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/hook/pythonpath.dsv'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/hook/pythonpath.sh'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/bin'
+[1.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio3)
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/package.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/package.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/package.sh'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/package.bash'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/ejercicio3/package.zsh'
+[1.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/share/colcon-core/packages/ejercicio3)
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1' for CMake module files
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/src/practica1' returned '0': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/practica1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practica1 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/practica1/install.log --single-version-externally-managed install_data
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1' for CMake config files
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/bin'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/pkgconfig/practica1.pc'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages'
+[1.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('practica1', 'pythonpath')
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/hook/pythonpath.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/hook/pythonpath.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/hook/pythonpath.sh'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/bin'
+[1.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(practica1)
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/package.ps1'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/package.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/package.sh'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/package.bash'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/practica1/package.zsh'
+[1.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rod-0310/Escritorio/practicasros_ws/install/practica1/share/colcon-core/packages/practica1)
+[1.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.154s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.157s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.157s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.157s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.164s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.164s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rod-0310/Escritorio/practicasros_ws/install/local_setup.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rod-0310/Escritorio/practicasros_ws/install/_local_setup_util_ps1.py'
+[1.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rod-0310/Escritorio/practicasros_ws/install/setup.ps1'
+[1.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rod-0310/Escritorio/practicasros_ws/install/local_setup.sh'
+[1.166s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rod-0310/Escritorio/practicasros_ws/install/_local_setup_util_sh.py'
+[1.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rod-0310/Escritorio/practicasros_ws/install/setup.sh'
+[1.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rod-0310/Escritorio/practicasros_ws/install/local_setup.bash'
+[1.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rod-0310/Escritorio/practicasros_ws/install/setup.bash'
+[1.168s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rod-0310/Escritorio/practicasros_ws/install/local_setup.zsh'
+[1.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rod-0310/Escritorio/practicasros_ws/install/setup.zsh'

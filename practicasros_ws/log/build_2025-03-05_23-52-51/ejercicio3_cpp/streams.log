@@ -1,0 +1,20 @@
+[0.317s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp -- -j20 -l20
+[0.480s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp -- -j20 -l20
+[0.480s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp
+[0.496s] -- Install configuration: ""
+[0.496s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/package_run_dependencies/ejercicio3_cpp
+[0.496s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/parent_prefix_path/ejercicio3_cpp
+[0.496s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/ament_prefix_path.sh
+[0.496s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/ament_prefix_path.dsv
+[0.496s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/path.sh
+[0.497s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/path.dsv
+[0.497s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.bash
+[0.497s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.sh
+[0.497s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.zsh
+[0.497s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.dsv
+[0.497s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.dsv
+[0.497s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/packages/ejercicio3_cpp
+[0.497s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/cmake/ejercicio3_cppConfig.cmake
+[0.497s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/cmake/ejercicio3_cppConfig-version.cmake
+[0.497s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.xml
+[0.511s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/practicasros_ws/src/install/practica1:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio3:/home/rod-0310/Escritorio/practicasros_ws/src/install/ejercicio2:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/ejercicio3_cpp

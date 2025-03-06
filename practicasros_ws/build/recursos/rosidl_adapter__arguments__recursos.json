@@ -1,0 +1,8 @@
+{
+  "package_name": "recursos",
+  "non_idl_tuples": [
+    "/home/rod-0310/Escritorio/practicasros_ws/src/recursos:msg/Num.msg",
+    "/home/rod-0310/Escritorio/practicasros_ws/src/recursos:msg/Sphere.msg",
+    "/home/rod-0310/Escritorio/practicasros_ws/src/recursos:srv/Coordenadas.srv"
+  ]
+}

@@ -1,0 +1,12 @@
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/uninstall.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/practica1_cpp_uninstall.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/nodo1.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/nodo2.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/nodo3.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/test.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/edit_cache.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/rebuild_cache.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/list_install_components.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/install.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/install/local.dir
+/home/rod-0310/Escritorio/practicasros_ws/build/practica1_cpp/CMakeFiles/install/strip.dir

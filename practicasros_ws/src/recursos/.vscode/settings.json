@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages",
+        "/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages",
+        "/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages",
+        "/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3/lib/python3.10/site-packages",
+        "/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio2/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

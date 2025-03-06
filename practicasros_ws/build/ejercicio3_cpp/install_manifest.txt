@@ -1,0 +1,17 @@
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/lib/ejercicio3_cpp/service
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/lib/ejercicio3_cpp/client
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/package_run_dependencies/ejercicio3_cpp
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/parent_prefix_path/ejercicio3_cpp
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/ament_prefix_path.sh
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/ament_prefix_path.dsv
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/path.sh
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/environment/path.dsv
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.bash
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.sh
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.zsh
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/local_setup.dsv
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.dsv
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ament_index/resource_index/packages/ejercicio3_cpp
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/cmake/ejercicio3_cppConfig.cmake
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/cmake/ejercicio3_cppConfig-version.cmake
+/home/rod-0310/Escritorio/practicasros_ws/install/ejercicio3_cpp/share/ejercicio3_cpp/package.xml

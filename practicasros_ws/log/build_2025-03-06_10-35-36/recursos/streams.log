@@ -1,0 +1,202 @@
+[0.012s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/recursos': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/recursos -- -j20 -l20
+[0.350s] [  2%] Built target recursos__cpp
+[0.350s] [ 12%] Built target recursos__rosidl_generator_c
+[0.350s] [ 12%] Built target ament_cmake_python_copy_recursos
+[0.350s] [ 23%] Built target recursos__rosidl_typesupport_c
+[0.350s] [ 34%] Built target recursos__rosidl_typesupport_introspection_cpp
+[0.350s] [ 44%] Built target recursos__rosidl_typesupport_fastrtps_cpp
+[0.350s] [ 55%] Built target recursos__rosidl_typesupport_introspection_c
+[0.350s] [ 65%] Built target recursos__rosidl_typesupport_cpp
+[0.350s] [ 76%] Built target recursos__rosidl_typesupport_fastrtps_c
+[0.350s] [ 76%] Built target recursos
+[0.350s] [ 78%] Built target recursos__py
+[0.351s] [ 87%] Built target recursos__rosidl_generator_py
+[0.351s] [ 95%] Built target recursos__rosidl_typesupport_introspection_c__pyext
+[0.351s] [ 95%] Built target recursos__rosidl_typesupport_fastrtps_c__pyext
+[0.351s] [100%] Built target recursos__rosidl_typesupport_c__pyext
+[0.351s] running egg_info
+[0.351s] writing recursos.egg-info/PKG-INFO
+[0.351s] writing dependency_links to recursos.egg-info/dependency_links.txt
+[0.351s] writing top-level names to recursos.egg-info/top_level.txt
+[0.351s] reading manifest file 'recursos.egg-info/SOURCES.txt'
+[0.351s] writing manifest file 'recursos.egg-info/SOURCES.txt'
+[0.351s] [100%] Built target ament_cmake_python_build_recursos_egg
+[0.362s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/recursos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/practicasros_ws/build/recursos -- -j20 -l20
+[0.363s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/build/recursos': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/recursos
+[0.370s] -- Install configuration: ""
+[0.370s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/ament_index/resource_index/rosidl_interfaces/recursos
+[0.370s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos
+[0.370s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv
+[0.370s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/coordenadas.h
+[0.370s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail
+[0.370s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__type_support.h
+[0.370s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__struct.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__functions.c
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__functions.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__functions.c
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__functions.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__functions.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__struct.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__type_support.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__functions.c
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__type_support.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__struct.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/num.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/sphere.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/rosidl_generator_c__visibility_control.h
+[0.371s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/environment/library_path.sh
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/environment/library_path.dsv
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/librecursos__rosidl_generator_c.so
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__rosidl_typesupport_fastrtps_c.h
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/librecursos__rosidl_typesupport_fastrtps_c.so
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__struct.hpp
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__builder.hpp
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__traits.hpp
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__type_support.hpp
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/coordenadas.hpp
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/num.hpp
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__builder.hpp
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__traits.hpp
+[0.372s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__builder.hpp
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__type_support.hpp
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__type_support.hpp
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__traits.hpp
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__struct.hpp
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__struct.hpp
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/sphere.hpp
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__rosidl_typesupport_fastrtps_cpp.hpp
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/dds_fastrtps
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail
+[0.373s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/dds_fastrtps
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/librecursos__rosidl_typesupport_fastrtps_cpp.so
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__type_support.c
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__rosidl_typesupport_introspection_c.h
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__type_support.c
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__rosidl_typesupport_introspection_c.h
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__type_support.c
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/librecursos__rosidl_typesupport_introspection_c.so
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/librecursos__rosidl_typesupport_c.so
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__rosidl_typesupport_introspection_cpp.hpp
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/srv/detail/coordenadas__type_support.cpp
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail
+[0.374s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__type_support.cpp
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/include/recursos/recursos/msg/detail/num__type_support.cpp
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/librecursos__rosidl_typesupport_introspection_cpp.so
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/librecursos__rosidl_typesupport_cpp.so
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/environment/pythonpath.sh
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/environment/pythonpath.dsv
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos-0.0.0-py3.10.egg-info
+[0.375s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos-0.0.0-py3.10.egg-info/top_level.txt
+[0.375s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.375s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.375s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos-0.0.0-py3.10.egg-info/PKG-INFO
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/recursos_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/recursos_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/__init__.py
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/recursos_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/srv
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/srv/__init__.py
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/srv/_coordenadas.py
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/srv/_coordenadas_s.c
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/msg
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/msg/_sphere_s.c
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/msg/__init__.py
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/msg/_sphere.py
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/msg/_num.py
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/msg/_num_s.c
+[0.375s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/_recursos_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.376s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/_recursos_s.ep.rosidl_typesupport_c.c
+[0.376s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/librecursos__rosidl_generator_py.so
+[0.376s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/_recursos_s.ep.rosidl_typesupport_introspection_c.c
+[0.393s] Listing '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos'...
+[0.393s] Listing '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/msg'...
+[0.393s] Listing '/home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/srv'...
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/recursos_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/recursos_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/local/lib/python3.10/dist-packages/recursos/recursos_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/lib/librecursos__rosidl_generator_py.so
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/msg/Num.idl
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/msg/Sphere.idl
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/srv/Coordenadas.idl
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/msg/Num.msg
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/msg/Sphere.msg
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/srv/Coordenadas.srv
+[0.396s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/srv/Coordenadas_Request.msg
+[0.397s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/srv/Coordenadas_Response.msg
+[0.397s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/ament_index/resource_index/package_run_dependencies/recursos
+[0.397s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/ament_index/resource_index/parent_prefix_path/recursos
+[0.397s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/environment/ament_prefix_path.sh
+[0.397s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/environment/ament_prefix_path.dsv
+[0.397s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/environment/path.sh
+[0.397s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/environment/path.dsv
+[0.398s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/local_setup.bash
+[0.398s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/local_setup.sh
+[0.398s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/local_setup.zsh
+[0.399s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/local_setup.dsv
+[0.399s] -- Installing: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.dsv
+[0.399s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/ament_index/resource_index/packages/recursos
+[0.400s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/export_recursos__rosidl_generator_cExport.cmake
+[0.400s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/export_recursos__rosidl_generator_cExport-noconfig.cmake
+[0.400s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/export_recursos__rosidl_typesupport_fastrtps_cExport.cmake
+[0.400s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/export_recursos__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.400s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/export_recursos__rosidl_generator_cppExport.cmake
+[0.400s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/export_recursos__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.401s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/export_recursos__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.401s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/recursos__rosidl_typesupport_introspection_cExport.cmake
+[0.401s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/recursos__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.401s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/recursos__rosidl_typesupport_cExport.cmake
+[0.401s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/recursos__rosidl_typesupport_cExport-noconfig.cmake
+[0.401s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/recursos__rosidl_typesupport_introspection_cppExport.cmake
+[0.401s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/recursos__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.401s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/recursos__rosidl_typesupport_cppExport.cmake
+[0.402s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/recursos__rosidl_typesupport_cppExport-noconfig.cmake
+[0.402s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/export_recursos__rosidl_generator_pyExport.cmake
+[0.402s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/export_recursos__rosidl_generator_pyExport-noconfig.cmake
+[0.403s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/rosidl_cmake-extras.cmake
+[0.403s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.403s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.403s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/ament_cmake_export_libraries-extras.cmake
+[0.404s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/ament_cmake_export_targets-extras.cmake
+[0.405s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.405s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.405s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/recursosConfig.cmake
+[0.405s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/cmake/recursosConfig-version.cmake
+[0.405s] -- Up-to-date: /home/rod-0310/Escritorio/practicasros_ws/install/recursos/share/recursos/package.xml
+[0.406s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/build/recursos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/practicasros_ws/build/recursos

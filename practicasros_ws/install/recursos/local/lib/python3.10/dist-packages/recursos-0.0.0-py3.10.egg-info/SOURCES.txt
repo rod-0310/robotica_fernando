@@ -1,0 +1,11 @@
+setup.py
+recursos/__init__.py
+recursos.egg-info/PKG-INFO
+recursos.egg-info/SOURCES.txt
+recursos.egg-info/dependency_links.txt
+recursos.egg-info/top_level.txt
+recursos/msg/__init__.py
+recursos/msg/_num.py
+recursos/msg/_sphere.py
+recursos/srv/__init__.py
+recursos/srv/_coordenadas.py

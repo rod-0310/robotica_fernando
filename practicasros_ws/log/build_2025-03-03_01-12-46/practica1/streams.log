@@ -1,0 +1,24 @@
+[0.425s] Invoking command in '/home/rod-0310/Escritorio/practicasros_ws/src/practica1': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/practica1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practica1 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/practica1/install.log --single-version-externally-managed install_data
+[0.560s] running egg_info
+[0.560s] writing ../../build/practica1/practica1.egg-info/PKG-INFO
+[0.560s] writing dependency_links to ../../build/practica1/practica1.egg-info/dependency_links.txt
+[0.560s] writing entry points to ../../build/practica1/practica1.egg-info/entry_points.txt
+[0.560s] writing requirements to ../../build/practica1/practica1.egg-info/requires.txt
+[0.560s] writing top-level names to ../../build/practica1/practica1.egg-info/top_level.txt
+[0.561s] reading manifest file '../../build/practica1/practica1.egg-info/SOURCES.txt'
+[0.561s] adding license file 'LICENSE'
+[0.562s] writing manifest file '../../build/practica1/practica1.egg-info/SOURCES.txt'
+[0.562s] running build
+[0.562s] running build_py
+[0.562s] running install
+[0.562s] running install_lib
+[0.563s] running install_data
+[0.563s] running install_egg_info
+[0.564s] removing '/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages/practica1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.564s] Copying ../../build/practica1/practica1.egg-info to /home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages/practica1-0.0.0-py3.10.egg-info
+[0.564s] running install_scripts
+[0.577s] Installing node3 script to /home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/practica1
+[0.577s] Installing nodo1 script to /home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/practica1
+[0.577s] Installing nodo2 script to /home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/practica1
+[0.577s] writing list of installed files to '/home/rod-0310/Escritorio/practicasros_ws/build/practica1/install.log'
+[0.591s] Invoked command in '/home/rod-0310/Escritorio/practicasros_ws/src/practica1' returned '0': PYTHONPATH=/home/rod-0310/Escritorio/practicasros_ws/build/practica1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/practicasros_ws/install/practica1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practica1 build --build-base /home/rod-0310/Escritorio/practicasros_ws/build/practica1/build install --record /home/rod-0310/Escritorio/practicasros_ws/build/practica1/install.log --single-version-externally-managed install_data
