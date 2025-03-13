@@ -1,0 +1,7 @@
+[console_scripts]
+filtro = ejer2_py.nodo5:main
+sensor_1 = ejer2_py.nodo1:main
+sensor_2 = ejer2_py.nodo2:main
+sensor_3 = ejer2_py.nodo3:main
+sensor_prom = ejer2_py.nodo4:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+KinematicsClient = ejer3_py.cliente:main
+KinematicsServer = ejer3_py.servidor:main
+

@@ -1,0 +1,37 @@
+[0.392s] Invoking command in '/home/rod-0310/Escritorio/examen_ws/src/ejer2_py': AMENT_PREFIX_PATH=/home/rod-0310/Escritorio/examen_ws/install/examen_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rod-0310/Escritorio/examen_ws/install/examen_interface LD_LIBRARY_PATH=/home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rod-0310/Escritorio/examen_ws/build/ejer2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages:/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer2_py build --build-base /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build install --record /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/install.log --single-version-externally-managed install_data
+[0.533s] running egg_info
+[0.533s] writing ../../build/ejer2_py/ejer2_py.egg-info/PKG-INFO
+[0.533s] writing dependency_links to ../../build/ejer2_py/ejer2_py.egg-info/dependency_links.txt
+[0.534s] writing entry points to ../../build/ejer2_py/ejer2_py.egg-info/entry_points.txt
+[0.534s] writing requirements to ../../build/ejer2_py/ejer2_py.egg-info/requires.txt
+[0.534s] writing top-level names to ../../build/ejer2_py/ejer2_py.egg-info/top_level.txt
+[0.534s] reading manifest file '../../build/ejer2_py/ejer2_py.egg-info/SOURCES.txt'
+[0.535s] adding license file 'LICENSE'
+[0.535s] writing manifest file '../../build/ejer2_py/ejer2_py.egg-info/SOURCES.txt'
+[0.535s] running build
+[0.535s] running build_py
+[0.535s] copying ejer2_py/nodo5.py -> /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build/lib/ejer2_py
+[0.535s] copying ejer2_py/nodo3.py -> /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build/lib/ejer2_py
+[0.535s] copying ejer2_py/nodo2.py -> /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build/lib/ejer2_py
+[0.536s] copying ejer2_py/nodo1.py -> /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build/lib/ejer2_py
+[0.536s] copying ejer2_py/nodo4.py -> /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build/lib/ejer2_py
+[0.536s] running install
+[0.536s] running install_lib
+[0.536s] copying /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build/lib/ejer2_py/nodo5.py -> /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py
+[0.536s] copying /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build/lib/ejer2_py/nodo3.py -> /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py
+[0.536s] copying /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build/lib/ejer2_py/nodo2.py -> /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py
+[0.536s] copying /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build/lib/ejer2_py/nodo1.py -> /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py
+[0.536s] copying /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build/lib/ejer2_py/nodo4.py -> /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py
+[0.536s] byte-compiling /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py/nodo5.py to nodo5.cpython-310.pyc
+[0.537s] byte-compiling /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py/nodo3.py to nodo3.cpython-310.pyc
+[0.537s] byte-compiling /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py/nodo2.py to nodo2.cpython-310.pyc
+[0.537s] byte-compiling /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py/nodo1.py to nodo1.cpython-310.pyc
+[0.537s] byte-compiling /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py/nodo4.py to nodo4.cpython-310.pyc
+[0.537s] running install_data
+[0.537s] running install_egg_info
+[0.538s] removing '/home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.538s] Copying ../../build/ejer2_py/ejer2_py.egg-info to /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages/ejer2_py-0.0.0-py3.10.egg-info
+[0.539s] running install_scripts
+[0.550s] Installing sensor_1 script to /home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/ejer2_py
+[0.550s] writing list of installed files to '/home/rod-0310/Escritorio/examen_ws/build/ejer2_py/install.log'
+[0.563s] Invoked command in '/home/rod-0310/Escritorio/examen_ws/src/ejer2_py' returned '0': AMENT_PREFIX_PATH=/home/rod-0310/Escritorio/examen_ws/install/examen_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rod-0310/Escritorio/examen_ws/install/examen_interface LD_LIBRARY_PATH=/home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rod-0310/Escritorio/examen_ws/build/ejer2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/examen_ws/install/ejer2_py/lib/python3.10/site-packages:/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer2_py build --build-base /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/build install --record /home/rod-0310/Escritorio/examen_ws/build/ejer2_py/install.log --single-version-externally-managed install_data

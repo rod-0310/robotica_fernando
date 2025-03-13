@@ -1,0 +1,4 @@
+[console_scripts]
+publicador = ejer1_py.publicador:main
+suscriptor = ejer1_py.suscriptor:main
+

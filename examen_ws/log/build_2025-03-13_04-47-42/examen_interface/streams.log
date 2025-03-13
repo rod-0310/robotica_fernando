@@ -1,0 +1,269 @@
+[0.009s] Invoking command in '/home/rod-0310/Escritorio/examen_ws/build/examen_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/examen_ws/install/ejer3_py:/home/rod-0310/Escritorio/examen_ws/install/ejer2_py:/home/rod-0310/Escritorio/examen_ws/install/ejer1_py:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/examen_ws/build/examen_interface -- -j20 -l20
+[0.026s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.107s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.127s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.159s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.345s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.730s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.746s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.746s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.746s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.765s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.769s] -- Added test 'lint_cmake' to check CMake code style
+[0.770s] -- Added test 'xmllint' to check XML markup files
+[0.771s] -- Configuring done
+[0.789s] -- Generating done
+[0.796s] -- Build files have been written to: /home/rod-0310/Escritorio/examen_ws/build/examen_interface
+[0.814s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.822s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.828s] [  5%] Built target ament_cmake_python_copy_examen_interface
+[1.000s] running egg_info
+[1.001s] writing examen_interface.egg-info/PKG-INFO
+[1.001s] writing dependency_links to examen_interface.egg-info/dependency_links.txt
+[1.001s] writing top-level names to examen_interface.egg-info/top_level.txt
+[1.003s] reading manifest file 'examen_interface.egg-info/SOURCES.txt'
+[1.003s] writing manifest file 'examen_interface.egg-info/SOURCES.txt'
+[1.007s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_generator_c[0m
+[1.016s] [  7%] [32mBuilding C object CMakeFiles/examen_interface__rosidl_generator_c.dir/rosidl_generator_c/examen_interface/srv/detail/kinematics__functions.c.o[0m
+[1.017s] [  7%] Built target examen_interface__cpp
+[1.017s] [ 10%] [32mBuilding C object CMakeFiles/examen_interface__rosidl_generator_c.dir/rosidl_generator_c/examen_interface/msg/detail/num__functions.c.o[0m
+[1.025s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.025s] [ 12%] Built target ament_cmake_python_build_examen_interface_egg
+[1.026s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.027s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.062s] [ 20%] [32m[1mLinking C shared library libexamen_interface__rosidl_generator_c.so[0m
+[1.091s] [ 20%] Built target examen_interface__rosidl_generator_c
+[1.102s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.102s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.102s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.204s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_typesupport_cpp[0m
+[1.216s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_typesupport_introspection_cpp[0m
+[1.217s] [ 30%] [32mBuilding CXX object CMakeFiles/examen_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/examen_interface/msg/num__type_support.cpp.o[0m
+[1.218s] [ 33%] [32mBuilding CXX object CMakeFiles/examen_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/examen_interface/srv/kinematics__type_support.cpp.o[0m
+[1.230s] [ 35%] [32mBuilding CXX object CMakeFiles/examen_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/examen_interface/srv/detail/kinematics__type_support.cpp.o[0m
+[1.230s] [ 38%] [32mBuilding CXX object CMakeFiles/examen_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/examen_interface/msg/detail/num__type_support.cpp.o[0m
+[1.254s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_typesupport_fastrtps_cpp[0m
+[1.270s] [ 43%] [32mBuilding CXX object CMakeFiles/examen_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/examen_interface/srv/detail/dds_fastrtps/kinematics__type_support.cpp.o[0m
+[1.270s] [ 43%] [32mBuilding CXX object CMakeFiles/examen_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/examen_interface/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[1.287s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_typesupport_c[0m
+[1.298s] [ 46%] [32mBuilding CXX object CMakeFiles/examen_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/examen_interface/srv/kinematics__type_support.cpp.o[0m
+[1.300s] [ 48%] [32mBuilding CXX object CMakeFiles/examen_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/examen_interface/msg/num__type_support.cpp.o[0m
+[1.313s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_typesupport_introspection_c[0m
+[1.325s] [ 51%] [32mBuilding C object CMakeFiles/examen_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/examen_interface/srv/detail/kinematics__type_support.c.o[0m
+[1.327s] [ 53%] [32mBuilding C object CMakeFiles/examen_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/examen_interface/msg/detail/num__type_support.c.o[0m
+[1.327s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_typesupport_fastrtps_c[0m
+[1.330s] [ 56%] [32m[1mLinking CXX shared library libexamen_interface__rosidl_typesupport_c.so[0m
+[1.338s] [ 58%] [32mBuilding CXX object CMakeFiles/examen_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/examen_interface/msg/detail/num__type_support_c.cpp.o[0m
+[1.341s] [ 61%] [32mBuilding CXX object CMakeFiles/examen_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/examen_interface/srv/detail/kinematics__type_support_c.cpp.o[0m
+[1.368s] [ 64%] [32m[1mLinking C shared library libexamen_interface__rosidl_typesupport_introspection_c.so[0m
+[1.374s] [ 64%] Built target examen_interface__rosidl_typesupport_c
+[1.397s] [ 64%] Built target examen_interface__rosidl_typesupport_introspection_c
+[1.464s] [ 66%] [32m[1mLinking CXX shared library libexamen_interface__rosidl_typesupport_cpp.so[0m
+[1.500s] [ 66%] Built target examen_interface__rosidl_typesupport_cpp
+[1.530s] [ 69%] [32m[1mLinking CXX shared library libexamen_interface__rosidl_typesupport_introspection_cpp.so[0m
+[1.570s] [ 71%] [32m[1mLinking CXX shared library libexamen_interface__rosidl_typesupport_fastrtps_c.so[0m
+[1.586s] [ 71%] Built target examen_interface__rosidl_typesupport_introspection_cpp
+[1.622s] [ 71%] Built target examen_interface__rosidl_typesupport_fastrtps_c
+[1.633s] [ 74%] [32m[1mLinking CXX shared library libexamen_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.677s] [ 74%] Built target examen_interface__rosidl_typesupport_fastrtps_cpp
+[1.690s] [ 74%] Built target examen_interface
+[1.702s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.919s] [ 76%] Built target examen_interface__py
+[1.926s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_generator_py[0m
+[1.933s] [ 82%] [32mBuilding C object CMakeFiles/examen_interface__rosidl_generator_py.dir/rosidl_generator_py/examen_interface/msg/_num_s.c.o[0m
+[1.933s] [ 82%] [32mBuilding C object CMakeFiles/examen_interface__rosidl_generator_py.dir/rosidl_generator_py/examen_interface/srv/_kinematics_s.c.o[0m
+[1.994s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/examen_interface/libexamen_interface__rosidl_generator_py.so[0m
+[2.023s] [ 84%] Built target examen_interface__rosidl_generator_py
+[2.030s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_typesupport_c__pyext[0m
+[2.030s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.030s] [35m[1mConsolidate compiler generated dependencies of target examen_interface__rosidl_typesupport_introspection_c__pyext[0m
+[2.038s] [ 92%] [32mBuilding C object CMakeFiles/examen_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/examen_interface/_examen_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[2.038s] [ 92%] [32mBuilding C object CMakeFiles/examen_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/examen_interface/_examen_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.038s] [ 92%] [32mBuilding C object CMakeFiles/examen_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/examen_interface/_examen_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.095s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/examen_interface/examen_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.096s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/examen_interface/examen_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.096s] [100%] [32m[1mLinking C shared library rosidl_generator_py/examen_interface/examen_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.123s] [100%] Built target examen_interface__rosidl_typesupport_c__pyext
+[2.124s] [100%] Built target examen_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.126s] [100%] Built target examen_interface__rosidl_typesupport_introspection_c__pyext
+[2.133s] Invoked command in '/home/rod-0310/Escritorio/examen_ws/build/examen_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/examen_ws/install/ejer3_py:/home/rod-0310/Escritorio/examen_ws/install/ejer2_py:/home/rod-0310/Escritorio/examen_ws/install/ejer1_py:/opt/ros/humble /usr/bin/cmake --build /home/rod-0310/Escritorio/examen_ws/build/examen_interface -- -j20 -l20
+[2.140s] Invoking command in '/home/rod-0310/Escritorio/examen_ws/build/examen_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/examen_ws/install/ejer3_py:/home/rod-0310/Escritorio/examen_ws/install/ejer2_py:/home/rod-0310/Escritorio/examen_ws/install/ejer1_py:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/examen_ws/build/examen_interface
+[2.144s] -- Install configuration: ""
+[2.144s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/ament_index/resource_index/rosidl_interfaces/examen_interface
+[2.145s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface
+[2.145s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv
+[2.145s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail
+[2.145s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__functions.c
+[2.145s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__struct.h
+[2.145s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__functions.h
+[2.145s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__type_support.h
+[2.145s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/kinematics.h
+[2.145s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg
+[2.145s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail
+[2.145s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__functions.c
+[2.145s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__functions.h
+[2.145s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__struct.h
+[2.146s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__type_support.h
+[2.146s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/num.h
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/rosidl_generator_c__visibility_control.h
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/environment/library_path.sh
+[2.146s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/environment/library_path.dsv
+[2.146s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_generator_c.so
+[2.146s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_generator_c.so" to ""
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail
+[2.146s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__rosidl_typesupport_fastrtps_c.h
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail
+[2.146s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[2.146s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_fastrtps_c.so
+[2.146s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv
+[2.146s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__type_support.hpp
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__struct.hpp
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__traits.hpp
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__builder.hpp
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/kinematics.hpp
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/num.hpp
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__builder.hpp
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__type_support.hpp
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__traits.hpp
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__struct.hpp
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__rosidl_typesupport_fastrtps_cpp.hpp
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/dds_fastrtps
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/dds_fastrtps
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.147s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv
+[2.147s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail
+[2.147s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__type_support.c
+[2.148s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__rosidl_typesupport_introspection_c.h
+[2.148s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg
+[2.148s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.148s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail
+[2.148s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__type_support.c
+[2.148s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__rosidl_typesupport_introspection_c.h
+[2.148s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_introspection_c.so
+[2.148s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_introspection_c.so" to ""
+[2.148s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_c.so
+[2.148s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_c.so" to ""
+[2.148s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface
+[2.148s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv
+[2.148s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail
+[2.148s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__type_support.cpp
+[2.148s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/srv/detail/kinematics__rosidl_typesupport_introspection_cpp.hpp
+[2.148s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg
+[2.148s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail
+[2.148s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[2.148s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/include/examen_interface/examen_interface/msg/detail/num__type_support.cpp
+[2.148s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_introspection_cpp.so
+[2.148s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[2.149s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_cpp.so
+[2.149s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_typesupport_cpp.so" to ""
+[2.149s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/environment/pythonpath.sh
+[2.149s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/environment/pythonpath.dsv
+[2.149s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface-0.0.0-py3.10.egg-info
+[2.149s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.149s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.149s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.149s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.150s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/_examen_interface_s.ep.rosidl_typesupport_c.c
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/_examen_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/__init__.py
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/examen_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/_examen_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/srv
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/srv/__init__.py
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/srv/_kinematics.py
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/srv/_kinematics_s.c
+[2.150s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/msg
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/msg/__init__.py
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/msg/_num.py
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/msg/_num_s.c
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/examen_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/examen_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.150s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/libexamen_interface__rosidl_generator_py.so
+[2.174s] Listing '/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface'...
+[2.174s] Compiling '/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/__init__.py'...
+[2.174s] Listing '/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/msg'...
+[2.174s] Compiling '/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/msg/__init__.py'...
+[2.174s] Compiling '/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/msg/_num.py'...
+[2.174s] Listing '/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/srv'...
+[2.174s] Compiling '/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/srv/__init__.py'...
+[2.174s] Compiling '/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/srv/_kinematics.py'...
+[2.177s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/examen_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.177s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/examen_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.177s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/examen_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.177s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/examen_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.177s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/examen_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.177s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/local/lib/python3.10/dist-packages/examen_interface/examen_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.177s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_generator_py.so
+[2.177s] -- Set runtime path of "/home/rod-0310/Escritorio/examen_ws/install/examen_interface/lib/libexamen_interface__rosidl_generator_py.so" to ""
+[2.177s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/msg/Num.idl
+[2.177s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/srv/Kinematics.idl
+[2.177s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/msg/Num.msg
+[2.177s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/srv/Kinematics.srv
+[2.178s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/srv/Kinematics_Request.msg
+[2.178s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/srv/Kinematics_Response.msg
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/ament_index/resource_index/package_run_dependencies/examen_interface
+[2.178s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/ament_index/resource_index/parent_prefix_path/examen_interface
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/environment/ament_prefix_path.sh
+[2.178s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/environment/ament_prefix_path.dsv
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/environment/path.sh
+[2.178s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/environment/path.dsv
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/local_setup.bash
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/local_setup.sh
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/local_setup.zsh
+[2.178s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/local_setup.dsv
+[2.178s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/package.dsv
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/ament_index/resource_index/packages/examen_interface
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/export_examen_interface__rosidl_generator_cExport.cmake
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/export_examen_interface__rosidl_generator_cExport-noconfig.cmake
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/export_examen_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/export_examen_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.178s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/export_examen_interface__rosidl_generator_cppExport.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/export_examen_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/export_examen_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/examen_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/examen_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/examen_interface__rosidl_typesupport_cExport.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/examen_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/examen_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/examen_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/examen_interface__rosidl_typesupport_cppExport.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/examen_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/export_examen_interface__rosidl_generator_pyExport.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/export_examen_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.179s] -- Installing: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/rosidl_cmake-extras.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/examen_interfaceConfig.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/cmake/examen_interfaceConfig-version.cmake
+[2.179s] -- Up-to-date: /home/rod-0310/Escritorio/examen_ws/install/examen_interface/share/examen_interface/package.xml
+[2.181s] Invoked command in '/home/rod-0310/Escritorio/examen_ws/build/examen_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rod-0310/Escritorio/examen_ws/install/ejer3_py:/home/rod-0310/Escritorio/examen_ws/install/ejer2_py:/home/rod-0310/Escritorio/examen_ws/install/ejer1_py:/opt/ros/humble /usr/bin/cmake --install /home/rod-0310/Escritorio/examen_ws/build/examen_interface

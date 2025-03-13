@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examen_interface__py",
+		"source" : "/home/rod-0310/Escritorio/examen_ws/build/examen_interface/examen_interface__py"
+	}
+}

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e48fa234b6560eb85b71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "examen_interface__py",
+					"jsonFile" : "directory-examen_interface__py-acf13b3d5dc187db5fe2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rod-0310/Escritorio/examen_ws/build/examen_interface/examen_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "examen_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_examen_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_examen_interface_egg-bb73f3a0d0a5e048e9d3.json",
+					"name" : "ament_cmake_python_build_examen_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_examen_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_examen_interface-938162ac9899c3188198.json",
+					"name" : "ament_cmake_python_copy_examen_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface-6cebcab56fbf94b6f1aa.json",
+					"name" : "examen_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__cpp-9d66525a23b7304d2e72.json",
+					"name" : "examen_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "examen_interface__py::@955b25c1a45304b07424",
+					"jsonFile" : "target-examen_interface__py-46f3f4b3a30814d94dc1.json",
+					"name" : "examen_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_generator_c-df76000ceb11c0ce6635.json",
+					"name" : "examen_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_generator_py-76920fbdc8f58a1275d7.json",
+					"name" : "examen_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_typesupport_c-97df7546e4652ef6f7bc.json",
+					"name" : "examen_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_typesupport_c__pyext-905b3f0ef304e26cfe69.json",
+					"name" : "examen_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_typesupport_cpp-bc63987c437593d2dfd5.json",
+					"name" : "examen_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_typesupport_fastrtps_c-92cba7890e05fb62af67.json",
+					"name" : "examen_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_typesupport_fastrtps_c__pyext-d1814a9440fc7305a484.json",
+					"name" : "examen_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_typesupport_fastrtps_cpp-d413b4efb5973c57c49f.json",
+					"name" : "examen_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_typesupport_introspection_c-b8d1887c177183eafaae.json",
+					"name" : "examen_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_typesupport_introspection_c__pyext-1eae3655ddbe81487cc4.json",
+					"name" : "examen_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface__rosidl_typesupport_introspection_cpp-a6699ced077e2e06e6f3.json",
+					"name" : "examen_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examen_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examen_interface_uninstall-2f847a59a6449f8c515c.json",
+					"name" : "examen_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6821fcd22452e506cbfe.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rod-0310/Escritorio/examen_ws/build/examen_interface",
+		"source" : "/home/rod-0310/Escritorio/examen_ws/src/examen_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

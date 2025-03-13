@@ -1,0 +1,7 @@
+{
+  "package_name": "examen_interface",
+  "non_idl_tuples": [
+    "/home/rod-0310/Escritorio/examen_ws/src/examen_interface:msg/Num.msg",
+    "/home/rod-0310/Escritorio/examen_ws/src/examen_interface:srv/Kinematics.srv"
+  ]
+}

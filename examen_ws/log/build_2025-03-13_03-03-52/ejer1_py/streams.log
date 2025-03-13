@@ -1,0 +1,23 @@
+[0.578s] Invoking command in '/home/rod-0310/Escritorio/examen_ws/src/ejer1_py': PYTHONPATH=/home/rod-0310/Escritorio/examen_ws/build/ejer1_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/examen_ws/install/ejer1_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer1_py build --build-base /home/rod-0310/Escritorio/examen_ws/build/ejer1_py/build install --record /home/rod-0310/Escritorio/examen_ws/build/ejer1_py/install.log --single-version-externally-managed install_data
+[0.751s] running egg_info
+[0.751s] writing ../../build/ejer1_py/ejer1_py.egg-info/PKG-INFO
+[0.751s] writing dependency_links to ../../build/ejer1_py/ejer1_py.egg-info/dependency_links.txt
+[0.751s] writing entry points to ../../build/ejer1_py/ejer1_py.egg-info/entry_points.txt
+[0.751s] writing requirements to ../../build/ejer1_py/ejer1_py.egg-info/requires.txt
+[0.751s] writing top-level names to ../../build/ejer1_py/ejer1_py.egg-info/top_level.txt
+[0.753s] reading manifest file '../../build/ejer1_py/ejer1_py.egg-info/SOURCES.txt'
+[0.757s] adding license file 'LICENSE'
+[0.757s] writing manifest file '../../build/ejer1_py/ejer1_py.egg-info/SOURCES.txt'
+[0.757s] running build
+[0.757s] running build_py
+[0.757s] running install
+[0.758s] running install_lib
+[0.759s] running install_data
+[0.759s] running install_egg_info
+[0.760s] removing '/home/rod-0310/Escritorio/examen_ws/install/ejer1_py/lib/python3.10/site-packages/ejer1_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.760s] Copying ../../build/ejer1_py/ejer1_py.egg-info to /home/rod-0310/Escritorio/examen_ws/install/ejer1_py/lib/python3.10/site-packages/ejer1_py-0.0.0-py3.10.egg-info
+[0.761s] running install_scripts
+[0.775s] Installing publicador script to /home/rod-0310/Escritorio/examen_ws/install/ejer1_py/lib/ejer1_py
+[0.775s] Installing suscriptor script to /home/rod-0310/Escritorio/examen_ws/install/ejer1_py/lib/ejer1_py
+[0.775s] writing list of installed files to '/home/rod-0310/Escritorio/examen_ws/build/ejer1_py/install.log'
+[0.791s] Invoked command in '/home/rod-0310/Escritorio/examen_ws/src/ejer1_py' returned '0': PYTHONPATH=/home/rod-0310/Escritorio/examen_ws/build/ejer1_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rod-0310/Escritorio/examen_ws/install/ejer1_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejer1_py build --build-base /home/rod-0310/Escritorio/examen_ws/build/ejer1_py/build install --record /home/rod-0310/Escritorio/examen_ws/build/ejer1_py/install.log --single-version-externally-managed install_data
